@@ -1,0 +1,123 @@
+$height: 600px;
+$width: 350px;
+$font-size: 30px;
+$text-color: white;
+
+
+body{
+    font-size:$font-size;
+     color: $text-color;
+     text-align: center;
+     width: 700px;
+
+}
+
+.change{
+    .container{
+        background-color: rgb(175, 180, 180);
+        height: $height;
+        width: auto;
+        text-align: center;
+        
+      }
+      .table1{
+          height: inherit;
+          width: $width;
+          background-color: rgb(59, 19, 105);
+          float: left;
+          text-align: center;
+         
+         
+      }
+      
+      .table2{
+          height: inherit;
+          width: $width;
+          background-color: rgb(10, 10, 10);
+          float:right;
+          text-align: center;
+        
+         
+          .img{
+              height: inherit;
+              width: inherit;
+          }
+      }
+      
+}
+
+
+.default{
+    .container{
+        background-color: aqua;
+        height: $height;
+        width: auto;
+        text-align: center;
+        color: white;
+        
+      }
+      .table1{
+          height: inherit;
+          width: $width;
+          background-color: rgb(191, 182, 201);
+          float: right;
+          text-align: center;
+         
+         
+      }
+      
+      .table2{
+          height: inherit;
+          width: $width;
+          background-color: rgb(43, 137, 226);
+          float:left;
+          text-align: center;
+        
+         
+          .img{
+              height: inherit;
+              width: inherit;
+          }
+      }
+      
+}
+.RightToLeft{
+    .container{
+        background-color: aqua;
+        height: $height;
+        width: auto;
+        direction: rtl;
+        color: white;
+        
+      }
+      .table1{
+          height: inherit;
+          width: $width;
+          background-color: rgb(191, 182, 201);
+          float: right;
+          direction: rtl;
+          h1{
+              direction: rtl;
+              p{
+                  direction: rtl;
+              }
+          }
+         
+         
+      }
+      
+      .table2{
+          height: inherit;
+          width: $width;
+          background-color: rgb(43, 137, 226);
+          float:left;
+          direction: rtl;
+        
+         
+          .img{
+              height: inherit;
+              width: inherit;
+          }
+      }
+      
+}
