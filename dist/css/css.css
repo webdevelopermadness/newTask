@@ -1,0 +1,101 @@
+body {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  width: 700px;
+}
+
+.change .container {
+  background-color: #afb4b4;
+  height: 600px;
+  width: auto;
+  text-align: center;
+}
+
+.change .table1 {
+  height: inherit;
+  width: 350px;
+  background-color: #3b1369;
+  float: left;
+  text-align: center;
+}
+
+.change .table2 {
+  height: inherit;
+  width: 350px;
+  background-color: #0a0a0a;
+  float: right;
+  text-align: center;
+}
+
+.change .table2 .img {
+  height: inherit;
+  width: inherit;
+}
+
+.default .container {
+  background-color: aqua;
+  height: 600px;
+  width: auto;
+  text-align: center;
+  color: white;
+}
+
+.default .table1 {
+  height: inherit;
+  width: 350px;
+  background-color: #bfb6c9;
+  float: right;
+  text-align: center;
+}
+
+.default .table2 {
+  height: inherit;
+  width: 350px;
+  background-color: #2b89e2;
+  float: left;
+  text-align: center;
+}
+
+.default .table2 .img {
+  height: inherit;
+  width: inherit;
+}
+
+.RightToLeft .container {
+  background-color: aqua;
+  height: 600px;
+  width: auto;
+  direction: rtl;
+  color: white;
+}
+
+.RightToLeft .table1 {
+  height: inherit;
+  width: 350px;
+  background-color: #bfb6c9;
+  float: right;
+  direction: rtl;
+}
+
+.RightToLeft .table1 h1 {
+  direction: rtl;
+}
+
+.RightToLeft .table1 h1 p {
+  direction: rtl;
+}
+
+.RightToLeft .table2 {
+  height: inherit;
+  width: 350px;
+  background-color: #2b89e2;
+  float: left;
+  direction: rtl;
+}
+
+.RightToLeft .table2 .img {
+  height: inherit;
+  width: inherit;
+}
+/*# sourceMappingURL=css.css.map */
